@@ -1,0 +1,700 @@
+/* header */
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+   
+}
+.row
+{
+  margin: 0;
+}
+img
+{
+  width: 100%;
+}
+.container-fluid
+{
+  padding: 0;
+}
+#header-section {
+    margin-top: -40px;
+}
+.main-header
+{
+  margin-top: 0x;
+}
+.main-header .logo-image
+{
+  width: 100%;
+  height: 110px;
+}
+.main-header .navbar-nav
+{
+  margin: auto;
+}
+.main-header .navbar-nav li {
+    margin: 0 20px 0 20px;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.main-header .navbar-nav li a
+{
+  font-size: 20px;
+  color: #1D3749;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+.main-header ul .nav-link.active {
+    
+    color: #0a0a23;
+    padding: 6px 16px;  
+}
+.main-header ul .nav-link:hover {   
+    color: #0a0a23;   
+}
+.all-button 
+{
+  background-color:#1F657A;
+    color: #fff;
+    border:none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 2px 2px #1F657A;
+    padding: 6px 20px 6px 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    border: 1px solid #1F657A;
+}
+.all-button:hover
+{
+  background-color: #1D3749;
+  color: white;
+}
+
+/* top-section-css */
+
+/* all-text-css */
+.main-subtitle
+{
+  color: #1F657A;
+  text-transform: uppercase;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-title{
+    font-family: "Urbanist", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 63px;
+    margin: 20px 0px 20px 0px;
+}
+.all-text p
+{
+  font-size: 25px;
+ font-family: "Urbanist", sans-serif;
+ font-weight: 400;
+ margin-bottom: 23px;
+}
+
+.left-top-text {
+    margin-top: 72px;
+}
+
+/* ,who-outer */
+.who-outer
+{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.who-right-all-text
+{
+  margin-top: 20px;
+  padding-left: 91px;
+}
+.who-right-all-text h3
+{
+  font-size: 44px;
+  line-height: 45px;
+}
+.who-list ul {
+    margin: 0;
+    padding: 0;
+}
+.who-list ul li
+{
+  list-style-type: none;
+   font-family: "Urbanist", sans-serif;
+  
+}
+.who-list ul li i {
+    background-color: #1F657A;
+    padding: 18px 18px;
+    font-size: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 18px;
+}
+.who-list ul li p {
+    padding-left: 63px;
+    padding-left: 70px;
+    margin-top: -10px;
+    font-size: 18px;
+  font-weight: 400;
+}
+.who-list ul li span
+{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* value-section-css */
+.value-inner {
+    background-image: url("Images/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 125px 0px 125px 0px;
+}
+.value-title .main-title
+{
+
+  color: white;
+  text-align: center;
+  font-size: 39px;
+  line-height: 47px;
+}
+.value-title .main-subtitle
+{
+  margin: auto;
+  display: table;
+}
+.value-list ul
+{
+  margin-top: 50px;
+}
+.value-list ul li {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 40px 25px 23px 25px;
+}
+.value-list ul li i {
+    display: block;
+    background-color: #1F657A;
+    padding: 45px 0;
+    width: 16%;
+    margin: auto;
+    font-size: 24px;
+}
+.value-list
+{
+  margin-top: 30px;
+}
+.value-list ul li span {
+    font-size: 26px;
+    position: relative;
+    top: 10px;
+    font-family: "Urbanist", sans-serif;
+}
+.value-list ul li p{
+font-family: "Urbanist", sans-serif;
+padding-top: 10px;
+}
+
+/* offer-section-css */
+
+.main-title.offer-title
+{
+  color: black;
+}
+.offer-outer
+{
+  margin: 50px 0 50px 0;
+}
+.offer-div img
+{
+  width: 150px;
+}
+.offer-div {
+    text-align: center;
+    padding-bottom: 25px;
+    transition: transform 0.5s ease-in-out;
+}
+.offer-div:hover
+{
+  transform: translateY(-10px);
+  border-bottom: 4px solid #1F657A;
+  transition: transform 0.5s ease-in-out;
+}
+.offer-div h4
+{
+  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+
+}
+.offer-div p
+{
+  font-size: 20px;
+   font-family: "Urbanist", sans-serif;
+   text-align: center;
+}
+.col-4.offer-div {
+    text-align: center;
+}
+
+/* why-choose-us-css */
+
+.inner-why
+{
+ margin: 90px 0 50px 0;
+}
+.choose-img-text {
+    margin: 62px 0 0 0;
+}
+.why-text p
+{
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+   margin-top: 23px;
+}
+.why-text .main-subtitle
+{
+  font-family: "Urbanist", sans-serif;
+}
+.why-text ul li {
+    list-style-type: none;
+    padding: 0 0 10px 0;
+}
+.why-text ul li span
+{
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+}
+.why-text ul li i
+{
+  color: #1F657A;;
+}
+.why-text ul {
+    display: inline-block;
+    padding: 12px 0 0 0;
+}
+.why-text ul.sec-ul {
+    padding-left: 15%;
+}
+
+/* team-section-css */
+.team-title
+{
+  text-align: left !important;
+}
+@property --progress-value {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+:root {
+  --progress-bar-color: #cfd8dc;
+  --progress-value-color: #2196f3;
+  --progress-empty-color-h: 4.1;
+  --progress-empty-color-s: 89.6;
+  --progress-empty-color-l: 58.4;
+  --progress-filled-color-h: 122.4;
+  --progress-filled-color-s: 39.4;
+  --progress-filled-color-l: 49.2;
+}
+
+progress
+{
+  margin-bottom: 70px;
+}
+
+.team-progressbar {
+    margin-top: 50px;
+}
+
+progress[value] {
+  display: block;
+  position: relative;
+  appearance: none;
+  width: 70%;
+  height: 8px;
+  border: 0;
+  --border-radius: 10px;
+  border-radius: var(--border-radius);
+  counter-reset: progress var(--progress-value);
+  --progress-value-string: counter(progress) '%';
+  --progress-max-decimal: calc(var(--value, 0) / var(--max, 0));
+  --progress-value-decimal: calc(var(--progress-value, 0) / var(--max, 0));
+  @supports selector(::-moz-progress-bar) {
+    --progress-value-decimal: calc(var(--value, 0) / var(--max, 0));
+  }
+  --progress-value-percent: calc(var(--progress-value-decimal) * 100%);
+  --progress-value-color: hsl(
+    calc((var(--progress-empty-color-h) + (var(--progress-filled-color-h) - var(--progress-empty-color-h)) * var(--progress-value-decimal)) * 1deg)
+    calc((var(--progress-empty-color-s) + (var(--progress-filled-color-s) - var(--progress-empty-color-s)) * var(--progress-value-decimal)) * 1%)
+    calc((var(--progress-empty-color-l) + (var(--progress-filled-color-l) - var(--progress-empty-color-l)) * var(--progress-value-decimal)) * 1%)
+  );
+  animation: calc(3s * var(--progress-max-decimal)) linear 0.5s 1 normal both progress;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: var(--progress-bar-color);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+progress[value]::-webkit-progress-value {
+  width: var(--progress-value-percent) !important;
+  background-color: var(--progress-value-color);
+  border-radius: var(--border-radius);
+}
+
+progress[value]::-moz-progress-bar {
+  width: var(--progress-value-percent) !important;
+  background-color: var(--progress-value-color);
+  border-radius: var(--border-radius);
+}
+
+progress[value]::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --size: 32px;
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  left: var(--progress-value-percent);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--progress-value-color);
+  border-radius: 50%;
+  content: attr(value);
+  content: var(--progress-value-string, var(--value));
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@keyframes progress {
+	from {
+		--progress-value: 0;
+	} to {
+		--progress-value: var(--value);
+	}
+}
+.team-progressbar span
+{
+  font-size: 20px;
+   font-family: "Urbanist", sans-serif;
+}
+
+/* black-bg-section-css */
+.black-picture-div
+{
+  padding: 80px 100px 80px 100px;
+  background-image: url("Images/bg1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+    border-radius: 60px 0px 60px 0;
+   
+}
+.main-title.offer-title.team-title.bg-title {
+    color: white;
+}
+.why-text.bg-text p {
+    color: white;
+    max-width: 40%;
+    margin-top: 36px;
+    margin-bottom: 38px;
+}
+
+/* featured-section-css */
+.feature-inner
+{
+  padding: 60px 0 60px 0;
+}
+.feat-content {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px 30px 30px 30px;
+    border: 2px solid black;
+    border-radius: 60px 0px 60px 0;
+}
+.accor-div {
+    width: 90%;
+    margin: auto;
+}
+.accordion-button
+{
+  background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(31, 101, 122, 1) 35%, rgba(35, 37, 41, 1) 100%);
+color: white !important;
+margin-bottom: 15px;
+background-color: transparent;
+border: none;
+}
+.accordion-item
+{
+  background-color: transparent;
+  border: none;
+}
+.accordion-body {
+    color: white;
+}
+#testimonial-section
+{
+  background-color: black;
+  padding: 50px 50px 50px 50px;
+}
+.testimonial-inner .row
+{
+  margin: 0;
+}
+.main-title.offer-title.accordion-title
+{
+  color: white;
+}
+
+/* cta-section-css */
+.cta-image img
+{
+width: 360px;
+}
+.cta-main-div {
+    margin: 60px 0 40px 0;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 60px 0px 60px 0;
+}
+.cta-main-div .main-title
+{
+  color: white;
+}
+.cta-image img {
+    margin-top: -50px;
+}
+.cta-all-text
+{
+  margin-top: 70px;
+}
+#team-section\ idea-section {
+    margin: 8% 0 8% 0;
+}
+/* footer-section-css */
+#footer-section {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 38px;
+}
+.footer-outer {
+  margin-top: 40px;
+  
+}
+.logo-one-footer 
+{
+  /* width: 39%; */
+}
+.one-footer {
+  /* WIDTH: 20%; */
+}
+.logo-one-footer img {
+  width: 250px;
+}
+.logo-one-footer h2
+{
+  color: black;
+  font-family: "Urbanist", sans-serif;
+  margin-left: 15px;
+}
+.logo-one-footer p
+{
+  max-width: 79%;
+  text-align: justify;
+  color: black;
+  padding-left: 19px;
+  padding-top: 10px;
+ font-family: "Urbanist", sans-serif;
+}
+.one-footer h3 {
+  font-family: "Urbanist", sans-serif;
+  text-transform: capitalize;
+  color: black;
+  padding-top: 10px;
+}
+.logo-one-footer h2::after {
+  content: '';
+  width: 80px;
+  height: 3px;
+  background-color: black;
+  display: table;
+  margin-top: 8px;
+  padding-top: 3px;
+}
+.one-footer h3::after {
+  content: '';
+  width: 80px;
+  height: 3px;
+  background-color: black;
+  display: table;
+  margin-top: 8px;
+  padding-top: 3px;
+}
+.one-footer ul {
+  display: table;
+  padding-left: 0;
+  padding-top: 19px;
+  float: left;
+  padding-right: 25px;
+}
+.one-footer ul li {
+  list-style-type: none;
+  padding-bottom: 9px;
+  font-size: 18px;
+ font-family: "Urbanist", sans-serif;
+  
+}
+.one-footer ul li a
+{
+  color: black;
+  text-decoration: none;
+text-transform: capitalize;
+transition: 0.3s;
+}
+.one-footer ul li a i {
+  margin-right: 12px;
+}
+.one-footer ul li  i {
+  margin-right: 12px;
+ color: black;
+}
+.one-footer ul li:hover a
+{
+  color: #1F657A;
+}
+.one-footer ul li:hover i
+{
+  color: #1F657A;
+}
+.one-footer ul li span
+{
+  transition: 0.3s !important;
+  color: black;
+}
+.one-footer ul li:hover span
+{
+  color: #1F657A;
+}
+.one-footer.social-icons ul li a i {
+  font-size: 32px;
+}
+.one-footer.social-icons ul li{
+  display: inline-block;
+}
+
+#copyright-section
+{
+  background-color: transparent;
+}
+.copyright h4 {
+  text-align: center;
+  margin: 0;
+  color: black;
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  margin-top: 0px;
+  padding: 18px 0;
+}
+.copyright h4 span
+{
+  color: #1F657A !important;
+}
+
+
+* contact-us-page-css */
+.contact-main
+
+{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.contact-list {
+  margin-top: 54px;
+  margin-left: 60px;
+}
+.contact-list ul li
+{
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-family: "Urbanist", sans-serif;
+font-size: 20px;
+}
+.contact-list ul li i {
+  font-size: 25px;
+  background-color: #1F657A;
+  color: white;
+  padding: 17px 17px;
+  border-radius: 0;
+  margin-right: 10px;
+}
+.contact-list ul li .fa-location-arrow.my-loc {
+  padding: 18px 19px;
+}
+.contact-list ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+.contact-list ul li:hover{
+  color:#1f5ea5;
+}
+.contact-list ul li:hover a{
+  color:#1f5ea5;
+}
+.contact-form input
+{
+  border: 2px solid #1F657A;
+  border-radius: 0px;
+}
+.contact-form textarea
+{
+  border: 2px solid #1F657A;
+  border-radius: 0px;
+  height: 150px !important;
+}
+.contact-form button {
+  background-color: #1F657A;
+  text-transform: capitalize;
+ font-family: "Urbanist", sans-serif;
+  border-radius: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+.contact-form button:hover{
+  background-color: transparent;
+  border-color: #1F657A;
+  color: #1F657A;
+}
+
+/* banner-css */
+.banner-text {
+    padding-top: 65px;
+}
+.banner-text h3
+{
+  font-size: 50px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700px;
+  
+}
+.banner-text p
+{
+  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+}

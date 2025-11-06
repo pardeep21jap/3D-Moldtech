@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    `
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- owl-carousel min.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="js/jquery.js" />
+  </head>
+  <body>
+    <!-- header -->
+    <section id="header-section">
+      <div class="container">
+        <div class="main-header">
+          <div class="top-navbar col-12">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="Images/logo.png"
+                    alt=""
+                    class="responsive logo-image"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarText"
+                  aria-controls="navbarText"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <button class="all-button">Get In Touch</button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- slider-section -->
+    <section id="top-section">
+      <div class="container">
+        <div class="top-outer">
+          <div class="row top-inner">
+            <div class="left-top-text col-6">
+              <div class="all-text">
+                <h4 class="main-subtitle">Welcome to 3D Moldtech</h4>
+                <h3 class="main-title">Affordable Innovation Starts Here</h3>
+                <p>
+                  Rapid, low-cost prototypes using innovative 3D-printed injection mold technology. Perfect for testing, refining, and launching your designs
+                </p>
+                <button class="all-button">Discover More</button>
+              </div>
+            </div>
+            <div class="right-top-image col-6">
+              <img src="Images/1st pic4.jpg" alt="" class="responsive" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- who-section -->
+    <section id="who-section">
+      <div class="container">
+        <div class="who-outer">
+          <div class="row who-inner">
+            <div class="col-5 left-image">
+              <img src="Images/2nd pic2.png" alt="" class="responsive" />
+            </div>
+            <div class="col-7 who-right-all-text">
+              <h4 class="main-subtitle">Who we are</h4>
+              <h3 class="main-title">
+                Passionate about innovation, we bring ideas to life with affordable prototyping.
+              </h3>
+
+              <div class="who-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Innovative Prototyping Experts</span>
+                    <p>
+                      Our mission is to make product development faster, more affordable, and accessible for everyone—from startups to established manufacturers.
+                    </p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Making Great Ideas Possible</span>
+                    <p>
+                      Our company is built on the belief that great ideas deserve to be made. We specialize in delivering affordable, accurate, and fast prototypes using 3D-printed molds
+                    </p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Simplifying the Prototyping Journey</span>
+                    <p>
+                      We remove the barriers to bringing products to life. By combining innovation, technology, and affordability, we make prototyping simple, fast, and efficient.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- value-section -->
+    <section id="value-section">
+      <div class="container-fluid">
+        <div class="value-outer">
+          <div class="value-inner">
+            <div class="value-title">
+              <h4 class="main-subtitle">Our Value</h4>
+              <h3 class="main-title">
+                Don't let your 3D designs go to waste.<br />
+                Let us turn them into reality.
+              </h3>
+            </div>
+            <div class="value-list">
+              <ul>
+                <!-- <li>
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <span>Our Vision</span>
+                  <p>
+                    Sed nibh lobortis phasellus inceptos ultricies facilisi erat
+                    maximus. Viverra magna interdum cubilia sociosqu faucibus
+                    mauris tincidunt posuere mus.
+                  </p>
+                </li> -->
+                <li>
+                 
+                  <span>Our Vision</span>
+                  <p>
+                    To become a leading innovator in affordable prototyping, empowering creators, startups, and businesses to bring ideas to life quickly and efficiently. We aim to revolutionize product development by combining advanced 3D printing and injection molding technologies, delivering high-quality prototypes without the constraints of cost or complexity.
+                  </p>
+                </li>
+                <!-- <li>
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <span>Our Vision</span>
+                  <p>
+                    Sed nibh lobortis phasellus inceptos ultricies facilisi erat
+                    maximus. Viverra magna interdum cubilia sociosqu faucibus
+                    mauris tincidunt posuere mus.
+                  </p>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- offfer-section -->
+    <section id="offer-section">
+      <div class="container">
+        <div class="offer-outer">
+          <div class="offer-inner">
+            <div class="value-title">
+              <h4 class="main-subtitle">We Offer</h4>
+              <h3 class="main-title offer-title">
+                Where innovation goes hand in hand<br />
+                with creativity.
+              </h3>
+            </div>
+
+            <div class="row offer-detail">
+              <div class="col-4 offer-div">
+                <img src="Images/3D Modelling.png" alt="" class="responsive" />
+                <h4>3D Modeling</h4>
+                <p>
+                  We create precise, detailed 3D models to visualize, refine, and perfect your product designs efficiently.
+                </p>
+                <button class="all-button">Learn More</button>
+              </div>
+              <div class="col-4 offer-div">
+                <img src="Images/3D Printing.png" alt="" class="responsive" />
+                <h4>3D Printing</h4>
+                <p>
+                  We produce high-quality prototypes using advanced 3D printing, ensuring accuracy, speed, and cost-effective results.
+                </p>
+                <button class="all-button">Learn More</button>
+              </div>
+              <div class="col-4 offer-div">
+                <img src="Images/user1.png" alt="" class="responsive" />
+                <h4>Prototyping</h4>
+                <p>
+                  We transform ideas into functional prototypes quickly, combining precision, efficiency, and affordability for product development.
+                </p>
+                <button class="all-button">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why-choose-us -->
+    <section id="why-section">
+      <div class="container">
+        <div class="outer-why">
+          <div class="inner-why">
+            <div class="value-title">
+              <h4 class="main-subtitle">Why Choose Us</h4>
+
+              <h3 class="main-title offer-title">
+                Transforming Concepts into High-Quality Prototypes Quickly, Efficiently, and Cost-Effectively Every Time
+              </h3>
+            </div>
+
+            <div class="row choose-img-text">
+              <div class="col-5 why-image">
+                <img src="Images/img44.png" alt="" class="responsive" />
+              </div>
+              <div class="col-7 why-text">
+                <h4 lass="main-subtitle">Professional & Clean design</h4>
+                <p>
+                  We deliver fast, affordable, and high-quality prototyping solutions, combining advanced technology and expertise to turn your ideas into reality.
+                </p>
+
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Affordable Prototyping</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Fast Turnaround</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>High Precision</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Advanced 3D Printing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Injection Molding Expertise</span>
+                  </li>
+                </ul>
+
+                <ul class="sec-ul">
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Innovative Solutions</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Customized Services</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Expert Team</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Quality Assurance</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Startup-Friendly</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section id="black-bg-section">
+  <div class="container-fluid">
+    <div class="black-bg-outer">
+<div class="black-picture-div">
+  <div class="value-title">
+                <h3 class="main-title offer-title team-title bg-title">
+                  Want to create stunning 3D <br>designs for your business? Let us<br> be your partner
+                </h3>
+              </div>
+
+               <div class="why-text bg-text">
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+            </div>
+            
+            <button class="all-button">Discover More</button>
+
+</div>
+
+</div>
+</div>
+</section>
+    <!-- team-section -->
+    <section id="team-section">
+      <div class="container">
+        <div class="team-outer">
+          <div class="row team-inner">
+            <div class="col-7 team-content">
+              <div class="value-title">
+                <h3 class="main-title offer-title team-title">
+                  Experienced & Expert Team
+                </h3>
+              </div>
+
+               <div class="why-text">
+                
+                <p>
+                  Our Experienced and Expert Team Delivers Innovative, Precise, and Reliable Prototyping Solutions for Every Project
+                </p>
+            </div>
+            <div class="team-progressbar">
+<span>3D Modeling</span><progress value="90" max="100" style="--value: 90; --max: 100;"></progress><span>3D Printing</span>
+<progress value="87" max="100" style="--value: 87; --max: 100;"></progress><span>Prototyping</span>
+<progress value="94" max="100" style="--value: 94; --max: 100;"></progress>
+            </div>
+            </div>
+            <div class="col-5 team-pic">
+              <img src="Images/team.png" alt=""/>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- black-bg-section -->
+
+
+<!-- feature-section -->
+<!-- <section id="feature-section">
+  <div class="container">
+    <div class="feature-outer">
+      <div class="feature-inner">
+
+         <div class="value-title">
+              <h4 class="main-subtitle">Featured Project</h4>
+
+              <h3 class="main-title offer-title">
+               Unleashing the Power of Innovation<br>
+                and Creativity.
+              </h3>
+            </div>
+
+<div class="row features-main-div">
+
+<div class="col-4 feat-img-text">
+<div class="feat-picture">
+  <img src="Images/feature1.jpg" alt="">
+</div>
+<div class="feat-content">
+  <h4>Product Design Visualization</h4>
+  <p>Taciti libero dolor lorem bibendum malesuada semper est hac litora himenaeos ut diam facilisis proin</p>
+   <button class="all-button">Learn More</button>
+</div>
+</div>
+
+<div class="col-4 feat-img-text">
+<div class="feat-picture">
+  <img src="Images/feature1.jpg" alt="">
+</div>
+<div class="feat-content">
+  <h4>Product Design Visualization</h4>
+  <p>Taciti libero dolor lorem bibendum malesuada semper est hac litora himenaeos ut diam facilisis proin</p>
+   <button class="all-button">Learn More</button>
+</div>
+</div>
+
+<div class="col-4 feat-img-text">
+<div class="feat-picture">
+  <img src="Images/feature1.jpg" alt="">
+</div>
+<div class="feat-content">
+  <h4>Product Design Visualization</h4>
+  <p>Taciti libero dolor lorem bibendum malesuada semper est hac litora himenaeos ut diam facilisis proin</p>
+   <button class="all-button">Learn More</button>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+</div>
+</section> -->
+
+<!-- testimonial-section -->
+<section id="testimonial-section">
+  <div class="container-fluid">
+    <div class="testimonial-outer">
+      <div class="testimonial-inner">
+<div class="value-title">
+              <h4 class="main-subtitle">Common Questions</h4>
+
+              <h3 class="main-title offer-title accordion-title">
+               Most Popular Questions
+              </h3>
+            </div>
+
+            <div class="row questions-div">
+
+              <div class="col-12 accor-div">
+ <div class="accordion" id="accordionExample">
+
+ 
+  
+   <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+       What is prototyping and why is it important?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Prototyping is creating a preliminary model of a product to test design, functionality, and feasibility before full-scale production. It helps reduce errors, save costs, and refine the final product.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+       What types of prototyping do you offer?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        We specialize in 3D-printed prototypes, injection-molded prototypes, and hybrid solutions combining both for faster, cost-effective results.
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         How long does it take to get a prototype?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Depending on complexity, prototypes can be delivered in 1–3 weeks, with rapid options available for urgent projects.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+         Lorem dapibus aptent dignissim tempor interdum?
+      </button>
+    </h2>
+    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Sapien aliquet ante ligula habitasse integer. Aptent pede ex at accumsan commodo. Quam integer sollicitudin odio vivamus vestibulum fermentum ultricies.Sapien aliquet ante ligula habitasse integer. Aptent pede ex at accumsan commodo. Quam integer sollicitudin odio vivamus vestibulum fermentum ultricies.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+         Can you create prototypes from just an idea or sketch?
+      </button>
+    </h2>
+    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Yes! Our team can turn sketches, drawings, or CAD designs into functional, high-quality prototypes.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+         What materials do you use for prototypes?
+      </button>
+    </h2>
+    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       We use a wide range of materials including PLA, ABS, resin, and durable plastics suitable for 3D printing or injection molding.
+      </div>
+    </div>
+  </div>
+
+</div>
+              </div>
+
+            </div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- idea-section -->
+ <section id="team-section idea-section">
+      <div class="container">
+        <div class="team-outer">
+          <div class="row team-inner">
+            <div class="col-5 team-pic">
+              <img src="Images/idea.png" alt=""/>
+            </div>
+            <div class="col-7 team-content">
+              <div class="value-title">
+                <h3 class="main-title offer-title team-title">
+                Innovative Solutions and Original Ideas
+                </h3>
+              </div>
+
+               <div class="why-text">
+                
+                <p>
+                  We thrive on delivering creative solutions and fresh ideas that transform concepts into reality. By combining innovation, technology, and expert insights, we help clients overcome design challenges, optimize prototypes, and explore new possibilities. Our approach ensures every project benefits from originality, efficiency, and practical, cutting-edge thinking.
+                </p>
+            </div>
+ 
+            <button class="all-button">Learn More</button>
+            </div>
+            
+          
+        </div>
+      </div>
+    </section>
+
+<!-- cta-section -->
+<section id="cta-section">
+  <div class="container-fluid">
+    <div class="cta-outer">
+      <div class="cta-inner">
+
+        <div class="row cta-main-div">
+            <div class="col-8 who-right-all-text cta-all-text">
+              <h4 class="main-subtitle">Free Consultations</h4>
+              <h3 class="main-title">
+               Book a free consultation now and see how our<br>
+               3D studio can bring your project to life!
+              </h3>
+<button class="all-button">Chat Now</button>
+            </div>
+            <div class="col-4 cta-image">
+              <img src="Images/cta.png" alt="" class="responsive">
+            </div>
+             
+        </div>
+
+</div>
+</div>
+</div>
+</section>
+
+ <!-- footer-section -->
+<section id="footer-section">
+  <div class="container">
+    <div class="footer-outer">
+      <div class="footer-inner">
+        <div class="row main-footer">
+    <div class="col-4 logo-one-footer">
+       <h2>Moldtech</h2>
+        <p>
+          Rapid, low-cost prototypes using innovative 3D-printed injection mold technology. Perfect for testing, refining, and launching your designs.
+       </p>
+   </div>
+   <div class="col-3 one-footer">
+<h3>quick links</h3>
+<ul>
+  <li>
+    <a href="index.html"><i class="fa-solid fa-arrow-right-long"></i>home</a>
+  </li>
+  <li>
+    <a href="about.html"><i class="fa-solid fa-arrow-right-long"></i>about us</a>
+  </li>
+  <li>
+    <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i>services</a>
+  </li>
+</ul>
+  <ul>
+   
+    <li>
+      <a href="projects.html"><i class="fa-solid fa-arrow-right-long"></i>portfolio</a>
+    </li>
+    <li>
+      <a href="contact.html"><i class="fa-solid fa-arrow-right-long"></i>contact us</a>
+    </li>
+  </ul>
+ 
+
+   </div>
+   <div class="col-3 one-footer">
+<h3>contact us</h3>
+<ul>
+  <li>
+    <i class="fa-sharp fa-solid fa-location-dot"></i>
+    <span>240 oakmere Way Chestmere, AB T1X1N5</span>
+  </li>
+  <li>
+    <i class="fa-solid fa-phone"></i>
+    <span> 123-456-7899</span>
+  </li>
+  <li>
+    <i class="fa-solid fa-envelope"></i>
+    <a href="">info@gmail.com</a>
+  </li>
+</ul>
+   </div>
+   <div class="col-2 one-footer social-icons">
+<h3>follow us</h3>
+<ul>
+  <li>
+    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+  </li>
+  <li>
+    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+  </li>
+  <li>
+    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+  </li>
+</ul>
+   </div>
+   
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- copyright-section -->
+<section id="copyright-section">
+  <div class="container-fluid">
+    <div class="cr-outer">
+      <div class="copyright">
+        <h4>© Copyright 2025 <span>Moldtech</span> All Rights Reserved.</h4>
+       </div>
+    </div>
+  </div>
+
+</section>
+
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- owl-carousel min.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owl-carousel -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+          navigation: true, // Show next and prev buttons
+
+          slideSpeed: 300,
+          paginationSpeed: 400,
+
+          items: 1,
+          itemsDesktop: false,
+          itemsDesktopSmall: false,
+          itemsTablet: false,
+          itemsMobile: false,
+        });
+      });
+    </script>
+  </body>
+</html>
